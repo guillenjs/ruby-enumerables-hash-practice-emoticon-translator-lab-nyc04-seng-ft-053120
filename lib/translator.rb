@@ -15,7 +15,6 @@ end
 
 def get_japanese_emoticon(file_path, emoticons)
   # code goes here
-  emoticon_hash = load_library(file_path)
   emoticons_list = load_library(file_path)
 emoji = emoticons
   emoticons_list.each do|key, value|
