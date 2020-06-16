@@ -37,8 +37,8 @@ emoji = emoticons
     value.each do|inner_key, inner_value|
       if emoji == inner_value
          return key
-       else emoji == nil
-         p "Sorry, that emoticon was not found"
+       else 
+         return "Sorry, that emoticon was not found"
        end
     end
   end
