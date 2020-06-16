@@ -38,9 +38,7 @@ emoji = emoticons
       if emoji == inner_value
          return key
        end
-       if emoji != inner_value
-          "Sorry, that emoticon was not found"
-       end
     end
   end
+  "Sorry, that emoticon was not found"
 end
