@@ -22,7 +22,7 @@ emoji = emoticons
     value.each do|inner_key, inner_value|
       binding.pry
       if emoji == inner_value
-         return
+         return value[:english]
        end
     end
   end
