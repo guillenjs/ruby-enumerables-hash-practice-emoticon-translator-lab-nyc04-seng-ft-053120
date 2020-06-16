@@ -20,7 +20,7 @@ emoji = emoticons
   emoticons_list.each do|key, value|
     value.each do|inner_key, inner_value|
       if emoji == inner_value
-         return value[:english]
+         return value[:japanese]
        end
     end
   end
