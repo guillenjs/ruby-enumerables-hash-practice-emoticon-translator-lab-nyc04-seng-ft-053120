@@ -35,8 +35,8 @@ def get_english_meaning(file_path, emoticons)
 emoji = emoticons
   emoticons_list.each do|key, value|
     value.each do|inner_key, inner_value|
-      while emoji == inner_value
-        puts key
+      if emoji == inner_value
+        put key
       end
     end
   end
